@@ -58,7 +58,6 @@ header {
 
 /* start main section */
 
-
 .section-content {
   width: 1072px;
   display: flex;
@@ -68,9 +67,9 @@ header {
   gap: 87px;
 }
 
-.section-info{
-    width: 416px;
-    margin-top: 95px;
+.section-info {
+  width: 416px;
+  margin-top: 95px;
 }
 
 .section-info h2 {
@@ -79,59 +78,89 @@ header {
   margin-bottom: 24px;
 }
 
-.section-info .list{
-    gap: 8px;
-    line-height: 30px;
+.section-info .list {
+  gap: 8px;
+  line-height: 30px;
 }
 .section-info p {
   line-height: 26px;
   margin-bottom: 16px;
 }
 
-.section-info i{
-    color: #16D887;
+.section-info i {
+  color: #16d887;
 }
 
-.section-info ul li{
-    list-style: none;
-    gap: 8px;
-
+.section-info ul li {
+  list-style: none;
+  gap: 8px;
 }
 /* end main section */
 
 /* start plans section */
-.plans-container{
-    width: 71% ;
-    max-width: 1148px;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
+.plans-container {
+  width: 71%;
+  max-width: 1148px;
+  margin: 130px 230px;
+  text-align: center;
+  justify-content: center;
 }
 
-.plans-container .plans-heading{
-    font-size: 44px;
-    font-weight: bold;
-    color: rgba(21, 20, 20, 1);
-    margin-bottom: 55px;
+.plans-container .plans-heading {
+  font-size: 44px;
+  font-weight: bold;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 55px;
 }
 
-.plans-list{
-    display: flex;
-    justify-content: space-between;
+.plans-list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.list-info img{
-    width: 92px;
-    margin-bottom: 18px;
+.list-info img {
+  width: 92px;
+  margin-bottom: 18px;
 }
 
-.plans-list h3{
-    font-size: 30px;
-    margin-bottom: 16px;
+.plans-list h3 {
+  font-size: 30px;
+  margin-bottom: 16px;
 }
 
-.plans-list p{
-    font-size: 25px;
-    color: rgba(115, 114, 114, 1);
+.plans-list p {
+  font-size: 25px;
+  color: rgba(115, 114, 114, 1);
 }
 /* end plans section */
+/* start mindset section */
+.mindset-container {
+  background-image: url("../images/gradient3.png"), url("../images/watch.png");
+  width: 71%;
+  max-width: 1140px;
+  height: 300px;
+  /* margin: 130px 230px; */
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.mindset-content {
+  width: 459px;
+  margin: 59px 600px 59px 64px;
+  height: 182px;
+}
+
+.mindset-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.mindset-content button {
+  background-color: white;
+  color: #f15b22;
+}
+/* end mindset section */
