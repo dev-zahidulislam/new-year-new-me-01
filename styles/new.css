@@ -99,10 +99,17 @@ header {
 /* end main section */
 
 /* start plans section */
+
+.plans{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .plans-container {
   width: 71%;
-  max-width: 1148px;
-  margin: 130px 230px;
+  max-width: 1140px;
+  margin: 0 230px 130px;
   text-align: center;
   justify-content: center;
 }
@@ -170,13 +177,17 @@ footer{
     background-color: black;
     color: #ffffff;
     margin-top: 130px;
+
+
 }
 
 .footer-content{
+  width: 1100px;
   display: flex;
   justify-content: space-between;
   align-content: center;
   padding: 130px 230px;
+  margin: 0 auto;
   
 }
 
