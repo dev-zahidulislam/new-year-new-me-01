@@ -19,7 +19,7 @@
   background-color: #f15b22;
   color: white;
   padding: 21px 25px 19px 26px;
-  border: none;
+  border: none !important ;
   border-radius: 5px;
   font-size: 20px;
   font-weight: 600;
@@ -98,3 +98,40 @@ header {
 
 }
 /* end main section */
+
+/* start plans section */
+.plans-container{
+    width: 71% ;
+    max-width: 1148px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.plans-container .plans-heading{
+    font-size: 44px;
+    font-weight: bold;
+    color: rgba(21, 20, 20, 1);
+    margin-bottom: 55px;
+}
+
+.plans-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-info img{
+    width: 92px;
+    margin-bottom: 18px;
+}
+
+.plans-list h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plans-list p{
+    font-size: 25px;
+    color: rgba(115, 114, 114, 1);
+}
+/* end plans section */
