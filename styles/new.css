@@ -23,6 +23,7 @@
   border-radius: 5px;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* start header section */
@@ -164,3 +165,83 @@ header {
   color: #f15b22;
 }
 /* end mindset section */
+/* start footer section */
+footer{
+    background-color: black;
+    color: #ffffff;
+    margin-top: 130px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 130px 230px;
+  
+}
+
+.social{
+    width: 474px;
+    color: white;
+
+    
+}
+
+.social-text h3{
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.footer-text{
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 26px;
+  margin-bottom: 24px;
+  
+}
+.social-text p{
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+
+.social .icons{
+  display: flex;
+  gap: 17px;
+  margin-top: 32px;
+
+}
+.form{
+  325px
+}
+
+form h3{
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
+.footer-content form input[type="email"]{
+  width: 325px;
+  background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-size: 18px;
+ 
+}
+
+.footer-btn{
+  color: #F15B22;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  padding: 20px 36px;
+}
+
+
+/* end footer section */
